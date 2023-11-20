@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #50d9eb94;
+  background-color: #7ee4dba6;
+  border-radius: 4px;
+  padding: 20px 30px;
+  box-shadow: 2px 2px 4px rgba(138, 173, 175, 0.63),
+    3px 3px 4px rgba(36, 191, 230, 0.411);
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #050505;
+}
+
+.input {
+  margin-left: 20px;
+}
+
+.btn {
+  width: 100px;
+  justify-self: right;
+}

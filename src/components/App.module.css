@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #010101;
+  padding: 10px;
+  gap: 10px;
+}
+
+.titleContacts {
+  margin-top: 10px;
+}
+.allContacts {
+  margin-bottom: 10px;
+}
